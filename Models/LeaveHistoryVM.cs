@@ -23,7 +23,7 @@ namespace leave_management.Models
         public EmployeeVM ApprovedBy { get; set; }
         public string ApprovedById { get; set; }
 
-        public DetailsLeaveTypeVM LeaveType { get; set; }
+        public LeaveTypeVM LeaveType { get; set; }
         public int LeaveTypeId { get; set; }
 
         public EmployeeVM RequestingEmployee { get; set; }
