@@ -33,10 +33,10 @@
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">
                     <i class="fa fa-pencil" aria-hidden="true"></i>
-                </a> |
+                </a> 
                 <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">
                     <i class="fa fa-info-circle" aria-hidden="true"></i>
-                </a> |
+                </a> 
                 <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger" onclick="return confirm('Êtes-vous sûr de vouloir le supprimer ?')">
                     <i class="fa fa-trash" aria-hidden="true"></i> 
                 </a>
@@ -48,8 +48,6 @@
 
 @section Scripts{
     <script>
-        $(document).ready(function () {
-            $('#tblData').DataTable();
-        });
+        
     </script>
  } 
